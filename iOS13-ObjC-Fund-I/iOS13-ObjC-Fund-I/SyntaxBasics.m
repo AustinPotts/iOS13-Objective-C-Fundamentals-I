@@ -100,4 +100,39 @@
     NSLog(@"---------------End Primitives---------------\n\n");
 }
 
+- (void)exploreObjects {
+    //
+    // Objects (class-based types)
+    //
+    NSLog(@"---------------Objects---------------");
+    // NSString
+    NSString *lambda = @"Go all in";
+    NSLog(@"%@", lambda);  // %@ = Objective-C object
+    // String concatenation/interpolation
+    // "The length is " + "\(94)" // Swift
+    // @"hello " + @"world"; // Invalid operands to binary expression ('NSString *' and 'NSString *')
+    NSString *label = @"The length is";
+    int length = 94;
+    NSString *lengthString = [NSString stringWithFormat:@"%@ %d", label, length];
+    NSLog(@"%@", lengthString);
+    // `id` type used to store an object of any type
+    // AnyObject
+    id mysteryObject = @"An NSString Object";
+    NSLog(@"%@", [mysteryObject description]);
+    mysteryObject = @[@"Apple", @"Microsoft"];
+    NSLog(@"%@", [mysteryObject description]);
+    NSLog(@"---------------End Objects---------------");
+}
+
+
+- (void)exploreCollectionsWithArray:(NSArray *)shipCaptains{
+    
+}
+
+
+- (void)exploreNumbers{
+    
+}
+
+
 @end

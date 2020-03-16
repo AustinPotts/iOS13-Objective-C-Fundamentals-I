@@ -45,6 +45,16 @@ int main(int argc, const char * argv[]) {
         //Swift
         // basics.explorePrimitives() call a funtion in swift
         [basics explorePrimitive];
+        
+        
+        [basics exploreObjects];
+        // Swift
+        //        basics.exploreCollections(array: ["John", "Jim", "Sue"])
+        [basics exploreCollectionsWithArray:@[@"Malcolm Reynolds",
+                                              @"Jean-Luc Picard",
+                                              @"James T. Kirk",
+                                              @"Kathryn Janeway"]];
+        [basics exploreNumbers];
 
     }
     return 0;

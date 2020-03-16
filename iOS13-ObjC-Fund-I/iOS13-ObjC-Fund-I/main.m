@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h> // Used for frameworks 
 #import "LSILog.h" // used for project files
 
+#import "SyntaxBasics.h"
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool { // automatic Reference Counting  (ARC) - auto release objects
         
@@ -23,6 +25,23 @@ int main(int argc, const char * argv[]) {
         NSString *honda = @"Civic";  //Objective C is based on C
         NSLog(@"I have a %@ from %d", honda, 2010); // Using a string token to print (%@ = Object)
         //%d or %i = integer
+        
+        //Swift
+        //let basics = SyntaxBasics(largeNumber: 23333333)
+        
+        
+        // [SyntaxBasics alloc] = creating memory for our object (buying land to build house)
+        
+        //Building the house [[SyntaxBasics alloc] initWithLargeNumber:@2356777];
+        
+        //Alloc needed for each Object
+        
+        
+        SyntaxBasics *basics = [[SyntaxBasics alloc] initWithLargeNumber:@2356777];
+        
+        //%li = long integer
+        NSLog(@"number: %li", basics.largeNumber.longValue);
+
     }
     return 0;
 }

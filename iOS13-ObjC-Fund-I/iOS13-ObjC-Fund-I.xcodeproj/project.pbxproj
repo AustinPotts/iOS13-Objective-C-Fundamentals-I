@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		45715311241FDC8B00F1CDC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45715310241FDC8B00F1CDC5 /* main.m */; };
+		45715319241FDD5100F1CDC5 /* LSILog.m in Sources */ = {isa = PBXBuildFile; fileRef = 45715317241FDD5100F1CDC5 /* LSILog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		4571530D241FDC8B00F1CDC5 /* iOS13-ObjC-Fund-I */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "iOS13-ObjC-Fund-I"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45715310241FDC8B00F1CDC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45715317241FDD5100F1CDC5 /* LSILog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSILog.m; path = ../../../LSILog.m; sourceTree = "<group>"; };
+		45715318241FDD5100F1CDC5 /* LSILog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSILog.h; path = ../../../LSILog.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		4571530F241FDC8B00F1CDC5 /* iOS13-ObjC-Fund-I */ = {
 			isa = PBXGroup;
 			children = (
+				45715318241FDD5100F1CDC5 /* LSILog.h */,
+				45715317241FDD5100F1CDC5 /* LSILog.m */,
 				45715310241FDC8B00F1CDC5 /* main.m */,
 			);
 			path = "iOS13-ObjC-Fund-I";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45715311241FDC8B00F1CDC5 /* main.m in Sources */,
+				45715319241FDD5100F1CDC5 /* LSILog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		45715311241FDC8B00F1CDC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45715310241FDC8B00F1CDC5 /* main.m */; };
 		45715319241FDD5100F1CDC5 /* LSILog.m in Sources */ = {isa = PBXBuildFile; fileRef = 45715317241FDD5100F1CDC5 /* LSILog.m */; };
+		4571531C241FDFDC00F1CDC5 /* SyntaxBasics.m in Sources */ = {isa = PBXBuildFile; fileRef = 4571531B241FDFDC00F1CDC5 /* SyntaxBasics.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		45715310241FDC8B00F1CDC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		45715317241FDD5100F1CDC5 /* LSILog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSILog.m; path = ../../../LSILog.m; sourceTree = "<group>"; };
 		45715318241FDD5100F1CDC5 /* LSILog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSILog.h; path = ../../../LSILog.h; sourceTree = "<group>"; };
+		4571531A241FDFDC00F1CDC5 /* SyntaxBasics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SyntaxBasics.h; sourceTree = "<group>"; };
+		4571531B241FDFDC00F1CDC5 /* SyntaxBasics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SyntaxBasics.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				45715318241FDD5100F1CDC5 /* LSILog.h */,
 				45715317241FDD5100F1CDC5 /* LSILog.m */,
 				45715310241FDC8B00F1CDC5 /* main.m */,
+				4571531A241FDFDC00F1CDC5 /* SyntaxBasics.h */,
+				4571531B241FDFDC00F1CDC5 /* SyntaxBasics.m */,
 			);
 			path = "iOS13-ObjC-Fund-I";
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4571531C241FDFDC00F1CDC5 /* SyntaxBasics.m in Sources */,
 				45715311241FDC8B00F1CDC5 /* main.m in Sources */,
 				45715319241FDD5100F1CDC5 /* LSILog.m in Sources */,
 			);

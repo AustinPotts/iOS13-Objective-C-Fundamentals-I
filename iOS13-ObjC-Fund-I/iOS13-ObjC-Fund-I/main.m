@@ -22,7 +22,7 @@ int main(int argc, const char * argv[]) {
         
         NSString *honda = @"Civic";  //Objective C is based on C
         NSLog(@"I have a %@ from %d", honda, 2010); // Using a string token to print (%@ = Object)
-        //%d
+        //%d or %i = integer
     }
     return 0;
 }
